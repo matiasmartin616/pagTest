@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portafolio de Noemí</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<style>
+		/* Estilos globales */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		/* Estilos para la cabecera */
+		.header {
+			background-color: #FFFFFF;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+			padding: 20px;
+			text-align: center;
+			margin-bottom: 50px;
+		}
+
+		.header h1 {
+			margin: 0;
+			font-size: 48px;
+			color: #2F3C7E;
+		}
+
+		/* Estilos para la sección "Sobre mí" */
+		.about {
+			padding: 50px;
+			background-color: #F2F2F2;
+			border-radius: 5px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+			margin-bottom: 50px;
+		}
+
+		.about h2 {
+			color: #2F3C7E;
+			font-size: 36px;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+
+		.about p {
+			color: #666666;
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 30px;
+		}
+
+		/* Estilos para la sección "Mis proyectos" */
+		.projects {
+			padding: 50px;
+			background-color: #FFFFFF;
+			border-radius: 5px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+			margin-bottom: 50px;
+		}
+
+		.projects h2 {
+			color: #2F3C7E;
+			font-size: 36px;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+
+		.projects ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.projects li {
+			display: flex;
+			flex-wrap: wrap;
+			margin-bottom: 30px;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.projects li img {
+			max-width: 100%;
+			height: auto;
+			margin-right: 20px;
+			flex: 1;
+		}
+
+		.projects li h3 {
+			flex: 2;
+			font-size: 24px;
+			color: #2F3C7E;
+			margin: 0;
+		}
+
+        .contact h2 {
+		color: #2F3C7E;
+		font-size: 36px;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	.contact form {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.contact label {
+		display: block;
+		font-size: 18px;
+		color: #666666;
+		margin-bottom: 10px;
+		flex: 1;
+		min-width: 100px;
+		max-width: 200px;
+	}
+
+	.contact input,
+	.contact textarea {
+		flex: 2;
+		padding: 10px;
+		font-size: 18px;
+		border-radius: 5px;
+		border: none;
+		margin-bottom: 20px;
+	}
+
+	.contact button {
+		background-color: #2F3C7E;
+		color: #FFFFFF;
+		border: none;
+		border-radius: 5px;
+		padding: 10px 20px;
+		font-size: 18px;
+		cursor: pointer;
+	}
+
+	.contact button:hover {
+		background-color: #1B2650;
+	}
+
+    nav ul {
+  list-style: none;
+  display: inline-block;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: blue;
+  background-color: #fff;
+}
+
+</style>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<h1>¡Hola! Soy Noemí.</h1>
+			<nav>
+				<ul>
+					<li><a href="#about">Sobre mí</a></li>
+					<li><a href="#projects">Mis proyectos</a></li>
+					<li><a href="#contact">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="about" id="about">
+		<div class="container">
+			<h2>Sobre mí</h2>
+			<p>Soy un desarrollador web apasionado por la creación de soluciones digitales que sean atractivas, accesibles y fáciles de usar. Me encanta trabajar en equipo y tengo una mentalidad enfocada en el aprendizaje continuo. Siempre estoy buscando nuevos desafíos y oportunidades para crecer como profesional.</p>
+		</div>
+	</section>
+	<section class="projects" id="projects">
+		<div class="container">
+			<h2>Mis proyectos</h2>
+			<ul>
+				<li>
+					<img src="https://via.placeholder.com/200x150.png?text=Proyecto+1">
+					<h3>Proyecto 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis velit euismod, bibendum leo eget, scelerisque felis.</p>
+				</li>
+				<li>
+					<img src="https://via.placeholder.com/200x150.png?text=Proyecto+2">
+					<h3>Proyecto 2</h3>
+					<p>Nullam lacinia sem ac est pulvinar mollis. In nec sapien quis lectus finibus euismod vel et turpis.</p>
+				</li>
+				<li>
+					<img src="https://via.placeholder.com/200x150.png?text=Proyecto+3">
+					<h3>Proyecto 3</h3>
+                </li>
+            </ul>
+            </div>
+            </section>
+            <section class="contact" id="contact">
+            <div class="container">
+            <h2>Contacto</h2>
+            <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Mensaje:</label>
+			<textarea id="message" name="message" rows="5" required></textarea>
+
+			<button type="submit">Enviar mensaje</button>
+		</form>
+	</div>
+</section>
+</body>
+</html>
